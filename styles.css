@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'fuente';
+    src: url(Agatho_\ Light.otf);
+}
+
+header{
+    background-color: #539055;
+    padding: 1em;
+}
+.logo{
+    text-align: center;
+    background-color: #437344;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+body{
+    background: url(AA.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+.subt{
+    font-family: fuente;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1em;
+    font-size: x-large;
+    text-align: center;
+    background-color: #305331c3;
+}
+
+.text{
+    font-family: fuente;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+    background-color: #305331c3;
+    font-size: x-large;
+    text-align: justify;
+    font-weight: 800;
+
+}
+
+.fila{
+    background-color: #305331c3;
+    margin-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fila::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.coltext{
+    float: inline-start;
+    font-family: fuente;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 800;
+    padding: 1em;
+    width: 52.6%;
+}
+.colimg{
+    float: inline-start;
+    padding: 1em;
+    width: 20%;
+}
+
+
+.slider-container {
+    background-color: rgba(0, 0, 0, 0.747);
+    margin-left: 20%;
+    margin-top: 2em;
+    display: flex;
+    width: 60%;
+    height: 70vh;
+    overflow-x: scroll;
+}  
+.slider-container img{
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.logs{
+    text-align: center;
+    float: inline-start;
+    margin: 2em;
+    margin-top: 3em;
+}
+.filafot{
+    background-color: #437344;
+    padding-left: 40%;
+    padding-right: 39%;
+    
+}
+.filafot::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.fottex{
+    margin-top: 2em;
+    padding-top: 1em;
+    font-family: 'FONT1';
+    font-size: x-large;
+    text-align: center;
+    background-color: #437344;
+    font-family: fuente;
+    font-size: large;
+}

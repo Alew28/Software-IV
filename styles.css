@@ -11,14 +11,18 @@
 
 header{
     background-color: #539055;
-    padding: 1em;
+    padding: 2%;
 }
 .logo{
     text-align: center;
-    background-color: #437344;
+    background-color: #437346;
     margin-left: 10%;
     margin-right: 10%;
 }
+.logoprinc{
+    width: 20%;
+}
+
 body{
     background: url(AA.png);
     background-size: 100%;
@@ -64,18 +68,21 @@ body{
 .coltext{
     float: inline-start;
     font-family: fuente;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
     font-weight: 800;
     padding: 1em;
-    width: 52.6%;
+    width: 50%;
 }
 .colimg{
     float: inline-start;
     padding: 1em;
     width: 20%;
+    margin-top: 1%;
 }
-
+.imgcolu{
+    width: 90%;    
+}
 
 .slider-container {
     background-color: rgba(0, 0, 0, 0.747);
@@ -92,11 +99,43 @@ body{
     object-fit: contain;
 }
 
+.mapa{
+    text-align: center;
+}   
+
+.filaPago{
+    background-color: #305331c3;
+    margin-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.filaPago::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.logoMercado{
+    float: inline-start;
+    padding: 1em;
+    width: 30%;
+    text-align: center;
+    margin-top: 1em;
+}
+.textMercado{
+    float: inline-start;
+    font-family: fuente;
+    font-size: large;
+    text-align: left;
+    font-weight: 800;
+    padding: 1em;
+    width: 60%;
+}
+
 .logs{
     text-align: center;
     float: inline-start;
-    margin: 2em;
-    margin-top: 3em;
+    margin: 4.5%;
+    margin-top: 6%;
 }
 .filafot{
     background-color: #437344;
